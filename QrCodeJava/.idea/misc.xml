@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/QrCodeJava/app/src/main/res/drawable/bg_edittext.xml" value="0.1" />
+        <entry key="..\:/QrCodeJava/app/src/main/res/drawable/bg_image_create.xml" value="0.12" />
+        <entry key="..\:/QrCodeJava/app/src/main/res/drawable/ic_back.xml" value="0.142" />
+        <entry key="..\:/QrCodeJava/app/src/main/res/layout-v28/activity_policy.xml" value="0.19947916666666668" />
+        <entry key="..\:/QrCodeJava/app/src/main/res/layout/activity_create_location_qr.xml" value="0.19947916666666668" />
+        <entry key="..\:/QrCodeJava/app/src/main/res/layout/activity_create_qr_code.xml" value="0.20416666666666666" />
+        <entry key="..\:/QrCodeJava/app/src/main/res/layout/activity_create_qremail.xml" value="0.19947916666666668" />
+        <entry key="..\:/QrCodeJava/app/src/main/res/layout/activity_create_telephone_qr.xml" value="0.19947916666666668" />
+        <entry key="..\:/QrCodeJava/app/src/main/res/layout/activity_create_wifi_qr.xml" value="0.18541666666666667" />
+        <entry key="..\:/QrCodeJava/app/src/main/res/layout/activity_get_data_base.xml" value="0.18541666666666667" />
+        <entry key="..\:/QrCodeJava/app/src/main/res/layout/activity_language.xml" value="0.19947916666666668" />
+        <entry key="..\:/QrCodeJava/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/QrCodeJava/app/src/main/res/layout/activity_policy.xml" value="0.19947916666666668" />
+        <entry key="..\:/QrCodeJava/app/src/main/res/layout/activity_qr_result_code.xml" value="0.17452830188679244" />
+        <entry key="..\:/QrCodeJava/app/src/main/res/layout/activity_result_location_qr.xml" value="0.19947916666666668" />
+        <entry key="..\:/QrCodeJava/app/src/main/res/layout/activity_result_text_qr.xml" value="0.19947916666666668" />
+        <entry key="..\:/QrCodeJava/app/src/main/res/layout/activity_result_wifi_qr.xml" value="0.19947916666666668" />
+        <entry key="..\:/QrCodeJava/app/src/main/res/layout/activity_splash.xml" value="0.19010416666666666" />
+        <entry key="..\:/QrCodeJava/app/src/main/res/layout/activity_term_of_use.xml" value="0.19947916666666668" />
+        <entry key="..\:/QrCodeJava/app/src/main/res/layout/create_qr_code.xml" value="0.20416666666666666" />
+        <entry key="..\:/QrCodeJava/app/src/main/res/layout/fragment_create.xml" value="0.33" />
+        <entry key="..\:/QrCodeJava/app/src/main/res/layout/fragment_history.xml" value="0.203125" />
+        <entry key="..\:/QrCodeJava/app/src/main/res/layout/fragment_scan.xml" value="0.20416666666666666" />
+        <entry key="..\:/QrCodeJava/app/src/main/res/layout/fragment_setting.xml" value="0.153125" />
+        <entry key="..\:/QrCodeJava/app/src/main/res/layout/item_qr.xml" value="0.19947916666666668" />
+        <entry key="..\:/QrCodeJava/app/src/main/res/menu/bottom_navigation.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

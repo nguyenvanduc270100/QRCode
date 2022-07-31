@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.nvd.qrcode">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/icon_app"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon_app"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Qrcode"
+        tools:targetApi="31">
+        <activity
+            android:name=".activity.ActivityResultTextQr"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ActivityResultWifiQR"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ActivityResultLocationQR"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ActivityCreateWifiQR"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ActivityCreateLocationQR"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ActivityCreateTelephoneQR"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ActivityCreateQREmail"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ActivityTermOfUse"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ActivityPolicy"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ActivityGetDataBase"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ActivityQrResultCode"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ActivityLanguage"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.ActivityCreateQrCode"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" /> <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.nvd.qrcode"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/paths" />
+        </provider>
+    </application>
+
+</manifest>
